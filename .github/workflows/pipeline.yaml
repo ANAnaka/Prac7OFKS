@@ -3,37 +3,37 @@ name: Check Style Code
 on:
   push:
     branches:
-      - vetka
+      - asd
 
   pull_request:
     branches:
-      - vetka
+      - asd
 
 jobs:
   checkstyle:
     runs-on: ubuntu-latest
     steps:
-      # Загрузка кода
+      # пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Установка .NET SDK
+      # пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ .NET SDK
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '8.0.404' # Укажите нужную версию SDK
+          dotnet-version: '8.0.404' # пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ SDK
 
-      # Установка StyleCop.Analyzers
+      # пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ StyleCop.Analyzers
       - name: Install StyleCop.Analyzers
         run: |
           dotnet add package StyleCop.Analyzers --prerelease
 
-      # Сборка проекта (обязательно перед анализом)
+      # пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)
       - name: Build project
         run: |
           dotnet build --no-restore
 
-      # Проверка стиля кода с помощью StyleCop
+      # пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ StyleCop
       - name: Run StyleCop Analysis
         run: |
           dotnet build -warnaserror
