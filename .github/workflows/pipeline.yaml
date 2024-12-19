@@ -20,12 +20,12 @@ jobs:
       uses: microsoft/setup-msbuild@v1.0.2
 
     - name: Restore Nuget
-      run: nuget restore FoodDelivery.sln
+      run: nuget restore KP.sln
 
     - name: Build project
       run: |
-        msbuild FoodDelivery.sln /p:Configuration=Release
+        msbuild KP.sln /p:Configuration=Release
 
     - name: Code Analysys
       run: |
-        msbuild FoodDelivery.sln /p:Configuration=Release /p:RunCodeAnalysis=true
+        msbuild KP.sln /p:Configuration=Release /p:RunCodeAnalysis=true
