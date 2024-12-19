@@ -10,13 +10,13 @@ on:
         - vetka    
 jobs:
   checkstyle:
-     runs-on: ubuntu-lastest
+     runs-on: ubuntu-latest
      steps:
        - name: Download code
-         user: actions/checkout@v2
+         uses: actions/checkout@v2
 
        - name: Set version C#
-         user: actions/setup-C#@v2
+         uses: actions/setup-dotnet#@v2
          with:
             C#-version: '8.0.404'
 

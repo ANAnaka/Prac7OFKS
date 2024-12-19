@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\VS\\KP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|D:\\VS\\KP\\kp\\pipeline.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|solutionrelative:kp\\pipeline.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{193D63F5-22DA-4792-9C82-E9A2C799BA2F}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{193D63F5-22DA-4792-9C82-E9A2C799BA2F}|D:\\VS\\KP\\pipeline.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{193D63F5-22DA-4792-9C82-E9A2C799BA2F}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{193D63F5-22DA-4792-9C82-E9A2C799BA2F}|solutionrelative:pipeline.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|d:\\vs\\kp\\kp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|D:\\VS\\KP\\kp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|solutionrelative:kp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
@@ -114,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 289,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -139,6 +139,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
               "WhenOpened": "2024-12-16T10:20:12.722Z",
               "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pipeline.yaml",
+              "DocumentMoniker": "D:\\VS\\KP\\pipeline.yaml",
+              "RelativeDocumentMoniker": "pipeline.yaml",
+              "ToolTip": "D:\\VS\\KP\\pipeline.yaml",
+              "RelativeToolTip": "pipeline.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-19T16:40:58.611Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -174,21 +187,7 @@
               "RelativeToolTip": "KP\\.gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-19T15:45:02.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "pipeline.yaml",
-              "DocumentMoniker": "D:\\VS\\KP\\KP\\pipeline.yaml",
-              "RelativeDocumentMoniker": "KP\\pipeline.yaml",
-              "ToolTip": "D:\\VS\\KP\\KP\\pipeline.yaml",
-              "RelativeToolTip": "KP\\pipeline.yaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-12-19T15:32:17.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T15:45:02.06Z"
             },
             {
               "$type": "Document",
