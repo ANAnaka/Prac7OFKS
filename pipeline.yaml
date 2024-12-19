@@ -3,28 +3,28 @@ name: Check Style Code
 on:
   push:
     branches:
-        - vetka
-    
+      - vetka
   pull_request:
     branches:
-        - vetka    
+      - vetka
+
 jobs:
   checkstyle:
-     runs-on: ubuntu-latest
-     steps:
-       - name: Download code
-         uses: actions/checkout@v2
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-       - name: Set version C#
-         uses: actions/setup-dotnet#@v2
-         with:
-            C#-version: '8.0.404'
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '6.0.x'
 
-       - name: Install dependencies
-         run: |
-           pip install flake8
+      - name: Install StyleCop
+        run: |
+          dotnet tool install --global dotnet-format
+          export PATH="$PATH:/home/runner/.dotnet/tools"
 
-       - name: Run linter
-         run: |
-           flake8 . 
-          
+      - name: Run Style Check
+        run: |
+          dotnet format --check

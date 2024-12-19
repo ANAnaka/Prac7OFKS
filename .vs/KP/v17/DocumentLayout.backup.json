@@ -114,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 289,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
@@ -141,19 +141,6 @@
               "IsPinned": true
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "pipeline.yaml",
-              "DocumentMoniker": "D:\\VS\\KP\\pipeline.yaml",
-              "RelativeDocumentMoniker": "pipeline.yaml",
-              "ToolTip": "D:\\VS\\KP\\pipeline.yaml",
-              "RelativeToolTip": "pipeline.yaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-12-19T16:40:58.611Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
@@ -176,6 +163,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pipeline.yaml",
+              "DocumentMoniker": "D:\\VS\\KP\\pipeline.yaml",
+              "RelativeDocumentMoniker": "pipeline.yaml",
+              "ToolTip": "D:\\VS\\KP\\pipeline.yaml",
+              "RelativeToolTip": "pipeline.yaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-19T16:40:58.611Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
