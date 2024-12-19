@@ -122,8 +122,7 @@
               "RelativeToolTip": "KP\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-14T21:32:13.925Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -135,8 +134,7 @@
               "RelativeToolTip": "KP\\_KP11_01DataSet.xsd",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
               "WhenOpened": "2024-12-16T10:20:12.722Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -185,8 +183,7 @@
               "RelativeToolTip": "KP\\AdminWindow\\PaymentWindow.xaml.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAiwGIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T17:56:33.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T17:56:33.035Z"
             },
             {
               "$type": "Document",
@@ -197,8 +194,7 @@
               "ToolTip": "D:\\VS\\KP\\KP\\AdminWindow\\PaymentWindow.xaml",
               "RelativeToolTip": "KP\\AdminWindow\\PaymentWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-17T17:42:39.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T17:42:39.914Z"
             },
             {
               "$type": "Document",
@@ -210,8 +206,7 @@
               "RelativeToolTip": "KP\\AdminWindow\\ContractWindow.xaml.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T16:55:54.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T16:55:54.943Z"
             },
             {
               "$type": "Document",
@@ -222,8 +217,7 @@
               "ToolTip": "D:\\VS\\KP\\KP\\AdminWindow\\ContractWindow.xaml",
               "RelativeToolTip": "KP\\AdminWindow\\ContractWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-17T16:51:58.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T16:51:58.593Z"
             },
             {
               "$type": "Document",
@@ -235,8 +229,7 @@
               "RelativeToolTip": "KP\\AdminWindow\\Meeting.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA3wA8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T11:46:01.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T11:46:01.379Z"
             },
             {
               "$type": "Document",
@@ -247,8 +240,7 @@
               "ToolTip": "D:\\VS\\KP\\KP\\RegisterWindow.xaml",
               "RelativeToolTip": "KP\\RegisterWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-16T10:20:47.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T10:20:47.519Z"
             },
             {
               "$type": "Document",
@@ -260,8 +252,7 @@
               "RelativeToolTip": "KP\\AdminWindow\\MeetWindow.xaml.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAtwBYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T00:38:48.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T00:38:48.505Z"
             },
             {
               "$type": "Document",
@@ -272,8 +263,7 @@
               "ToolTip": "D:\\VS\\KP\\KP\\AdminWindow\\GeneralWindow.xaml",
               "RelativeToolTip": "KP\\AdminWindow\\GeneralWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-16T00:38:23.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T00:38:23.678Z"
             },
             {
               "$type": "Document",
@@ -285,8 +275,7 @@
               "RelativeToolTip": "KP\\RegisterWindow.xaml.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAYwD0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T00:37:41.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T00:37:41.595Z"
             },
             {
               "$type": "Document",
@@ -297,8 +286,7 @@
               "ToolTip": "D:\\VS\\KP\\KP\\MainWindow.xaml",
               "RelativeToolTip": "KP\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-13T12:52:03.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T12:52:03.225Z"
             },
             {
               "$type": "Document",
@@ -310,8 +298,7 @@
               "RelativeToolTip": "KP\\AdminWindow\\Premise.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T12:25:13.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T12:25:13.861Z"
             },
             {
               "$type": "Document",
@@ -322,8 +309,7 @@
               "ToolTip": "D:\\VS\\KP\\KP\\UserWindow\\GeneralWindow.xaml",
               "RelativeToolTip": "KP\\UserWindow\\GeneralWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-13T11:18:48.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T11:18:48.637Z"
             },
             {
               "$type": "Document",
@@ -334,8 +320,7 @@
               "ToolTip": "D:\\VS\\KP\\KP\\AdminWindow\\MeetWindow.xaml",
               "RelativeToolTip": "KP\\AdminWindow\\MeetWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T16:48:06.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T16:48:06.212Z"
             },
             {
               "$type": "Document",
@@ -347,8 +332,7 @@
               "RelativeToolTip": "KP\\AdminWindow\\User.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAYwAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T07:53:55.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T07:53:55.191Z"
             },
             {
               "$type": "Document",
@@ -360,8 +344,7 @@
               "RelativeToolTip": "KP\\AdminWindow\\UserWindow.xaml.cs",
               "ViewState": "AgIAAIoAAAAAAAAAAAAuwDkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T07:33:40.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T07:33:40.889Z"
             },
             {
               "$type": "Document",
@@ -372,8 +355,7 @@
               "ToolTip": "D:\\VS\\KP\\KP\\AdminWindow\\UserWindow.xaml",
               "RelativeToolTip": "KP\\AdminWindow\\UserWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-11T07:33:25.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T07:33:25.19Z"
             },
             {
               "$type": "Document",
@@ -385,8 +367,7 @@
               "RelativeToolTip": "KP\\SecurityHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T06:34:57.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T06:34:57.861Z"
             },
             {
               "$type": "Document",
@@ -398,8 +379,7 @@
               "RelativeToolTip": "KP\\AdminWindow\\GeneralWindow.xaml.cs",
               "ViewState": "AgIAAPcAAAAAAAAAAADgv/4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T06:23:34.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T06:23:34.445Z"
             },
             {
               "$type": "Document",
@@ -411,8 +391,7 @@
               "RelativeToolTip": "KP\\UserWindow\\GeneralWindow.xaml.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAIwA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T19:30:32.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T19:30:32.44Z"
             },
             {
               "$type": "Document",
@@ -424,8 +403,7 @@
               "RelativeToolTip": "KP\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T19:29:49.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T19:29:49.363Z"
             },
             {
               "$type": "Document",
@@ -437,8 +415,7 @@
               "RelativeToolTip": "KP\\UserWindow\\MeetWindow.xaml.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAtwHcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T21:57:35.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T21:57:35.564Z"
             },
             {
               "$type": "Document",
@@ -449,8 +426,7 @@
               "ToolTip": "D:\\VS\\KP\\KP\\UserWindow\\MeetWindow.xaml",
               "RelativeToolTip": "KP\\UserWindow\\MeetWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-28T21:57:34.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T21:57:34.416Z"
             }
           ]
         }

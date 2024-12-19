@@ -1,43 +1,31 @@
-name: Check Style Code
+name: FoodDelivery
 
 on:
   push:
     branches:
       - asd
-
   pull_request:
     branches:
       - asd
 
 jobs:
-  checkstyle:
-    runs-on: windows-latest  # Используется Windows-среда
+  CheckErrors:
+    runs-on: windows-latest
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-        with:
-          set-safe-directory: true
+    - name: Download Code
+      uses: actions/checkout@v2
 
-      - name: Setup .NET SDK
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: '8.0.404'  # Укажите нужную версию SDK
+    - name: Download .Net
+      uses: microsoft/setup-msbuild@v1.0.2
 
-      - name: List directory contents
-        run: |
-          dir  # В Windows используется команда 'dir' вместо 'ls'
+    - name: Restore Nuget
+      run: nuget restore FoodDelivery.sln
 
-      - name: Install StyleCop.Analyzers
-        working-directory: .\KP  # Используется путь, подходящий для Windows
-        run: |
-          dotnet add package StyleCop.Analyzers --prerelease
+    - name: Build project
+      run: |
+        msbuild FoodDelivery.sln /p:Configuration=Release
 
-      - name: Build project
-        working-directory: .\KP  # Используется путь, подходящий для Windows
-        run: |
-          dotnet build --no-restore
-
-      - name: Run StyleCop Analysis
-        working-directory: .\KP  # Используется путь, подходящий для Windows
-        run: |
-          dotnet build -warnaserror
+    - name: Code Analysys
+      run: |
+        msbuild FoodDelivery.sln /p:Configuration=Release /p:RunCodeAnalysis=true
