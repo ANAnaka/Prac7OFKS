@@ -38,15 +38,18 @@ namespace KP.UserWindow
 
         private void LoadUserRentals()
         {
-            DataTable rentals = rentTableAdapter.GetData(); 
-            DataView userRentals = new DataView(rentals)
+            using (var dataView = new DataView(this.rentTableAdapter.GetData()))
             {
-                RowFilter = $"ID_User = {userId}" 
-            };
+                DataTable rentals = rentTableAdapter.GetData(); 
+                DataView userRentals = new DataView(rentals)
+                {
+                    RowFilter = $"ID_User = {userId}" 
+                };
 
-            PremisesCB.ItemsSource = userRentals;
-            PremisesCB.DisplayMemberPath = "ID_Premises"; 
-            PremisesCB.SelectedValuePath = "ID_Rent";     
+                PremisesCB.ItemsSource = userRentals;
+                PremisesCB.DisplayMemberPath = "ID_Premises"; 
+                PremisesCB.SelectedValuePath = "ID_Rent";    
+            }
         }
         private List<Meeting> GetUserMeetings()
         {
