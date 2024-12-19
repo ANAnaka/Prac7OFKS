@@ -23,6 +23,14 @@ jobs:
         with:
           dotnet-version: '8.0.404'  # Укажите нужную версию SDK
 
+      - name: List directory contents
+        run: |
+          ls -la
+
+      - name: Navigate to project directory
+        run: |
+          cd D:/VS/KP
+
       - name: Install StyleCop.Analyzers
         run: |
           dotnet add package StyleCop.Analyzers --prerelease
