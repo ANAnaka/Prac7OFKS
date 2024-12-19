@@ -13,27 +13,27 @@ jobs:
   checkstyle:
     runs-on: ubuntu-latest
     steps:
-      # �������� ����
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # ��������� .NET SDK
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '8.0.404' # ������� ������ ������ SDK
+          dotnet-version: '8.0.404' 
 
-      # ��������� StyleCop.Analyzers
+      - name: Navigate to project directory
+        run: |
+          cd D:\VS\KP
+
       - name: Install StyleCop.Analyzers
         run: |
           dotnet add package StyleCop.Analyzers --prerelease
 
-      # ������ ������� (����������� ����� ��������)
       - name: Build project
         run: |
           dotnet build --no-restore
 
-      # �������� ����� ���� � ������� StyleCop
+
       - name: Run StyleCop Analysis
         run: |
           dotnet build -warnaserror
