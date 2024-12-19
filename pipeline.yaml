@@ -1,4 +1,4 @@
-name: Check Style Code
+name: Check Style and Syntax
 
 on:
   push:
@@ -11,6 +11,7 @@ on:
 jobs:
   checkstyle:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -18,13 +19,21 @@ jobs:
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '6.0.404'
+          dotnet-version: '6.0.400' # ”кажите вашу версию SDK
 
-      - name: Install StyleCop
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build the project
+        run: dotnet build --no-restore --configuration Release
+
+      - name: Install dotnet-format
         run: |
           dotnet tool install --global dotnet-format
-          export PATH="$PATH:/home/runner/.dotnet/tools"
+          echo "::add-path::/home/runner/.dotnet/tools"
 
       - name: Run Style Check
-        run: |
-          dotnet format --check
+        run: dotnet format --check
+
+      - name: Run Syntax Check
+        run: dotnet build --no-restore --configuration Release --no-incremental

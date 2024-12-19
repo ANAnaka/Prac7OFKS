@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{193D63F5-22DA-4792-9C82-E9A2C799BA2F}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{193D63F5-22DA-4792-9C82-E9A2C799BA2F}|solutionrelative:pipeline.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|D:\\VS\\KP\\kp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|solutionrelative:kp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|D:\\VS\\KP\\kp\\adminwindow\\paymentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|solutionrelative:kp\\adminwindow\\paymentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -118,7 +114,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\App.xaml",
               "RelativeDocumentMoniker": "KP\\App.xaml",
@@ -130,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "_KP11_01DataSet.xsd",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\_KP11_01DataSet.xsd",
               "RelativeDocumentMoniker": "KP\\_KP11_01DataSet.xsd",
@@ -180,18 +176,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": ".gitignore",
-              "DocumentMoniker": "D:\\VS\\KP\\KP\\.gitignore",
-              "RelativeDocumentMoniker": "KP\\.gitignore",
-              "ToolTip": "D:\\VS\\KP\\KP\\.gitignore",
-              "RelativeToolTip": "KP\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-19T15:45:02.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "PaymentWindow.xaml.cs",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\PaymentWindow.xaml.cs",
               "RelativeDocumentMoniker": "KP\\AdminWindow\\PaymentWindow.xaml.cs",
@@ -203,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "PaymentWindow.xaml",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\PaymentWindow.xaml",
               "RelativeDocumentMoniker": "KP\\AdminWindow\\PaymentWindow.xaml",
@@ -214,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ContractWindow.xaml.cs",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\ContractWindow.xaml.cs",
               "RelativeDocumentMoniker": "KP\\AdminWindow\\ContractWindow.xaml.cs",
@@ -226,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ContractWindow.xaml",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\ContractWindow.xaml",
               "RelativeDocumentMoniker": "KP\\AdminWindow\\ContractWindow.xaml",
@@ -237,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "Meeting.cs",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\Meeting.cs",
               "RelativeDocumentMoniker": "KP\\AdminWindow\\Meeting.cs",
@@ -249,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "RegisterWindow.xaml",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\RegisterWindow.xaml",
               "RelativeDocumentMoniker": "KP\\RegisterWindow.xaml",
@@ -260,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "MeetWindow.xaml.cs",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\MeetWindow.xaml.cs",
               "RelativeDocumentMoniker": "KP\\AdminWindow\\MeetWindow.xaml.cs",
@@ -272,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "GeneralWindow.xaml",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\GeneralWindow.xaml",
               "RelativeDocumentMoniker": "KP\\AdminWindow\\GeneralWindow.xaml",
@@ -283,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "RegisterWindow.xaml.cs",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\RegisterWindow.xaml.cs",
               "RelativeDocumentMoniker": "KP\\RegisterWindow.xaml.cs",
@@ -295,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\MainWindow.xaml",
               "RelativeDocumentMoniker": "KP\\MainWindow.xaml",
@@ -306,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "Premise.cs",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\Premise.cs",
               "RelativeDocumentMoniker": "KP\\AdminWindow\\Premise.cs",
@@ -318,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "GeneralWindow.xaml",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\UserWindow\\GeneralWindow.xaml",
               "RelativeDocumentMoniker": "KP\\UserWindow\\GeneralWindow.xaml",
@@ -329,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "MeetWindow.xaml",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\MeetWindow.xaml",
               "RelativeDocumentMoniker": "KP\\AdminWindow\\MeetWindow.xaml",
@@ -340,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\User.cs",
               "RelativeDocumentMoniker": "KP\\AdminWindow\\User.cs",
@@ -352,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "UserWindow.xaml.cs",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\UserWindow.xaml.cs",
               "RelativeDocumentMoniker": "KP\\AdminWindow\\UserWindow.xaml.cs",
@@ -364,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "UserWindow.xaml",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\UserWindow.xaml",
               "RelativeDocumentMoniker": "KP\\AdminWindow\\UserWindow.xaml",
@@ -375,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "SecurityHelper.cs",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\SecurityHelper.cs",
               "RelativeDocumentMoniker": "KP\\SecurityHelper.cs",
@@ -387,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "GeneralWindow.xaml.cs",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\GeneralWindow.xaml.cs",
               "RelativeDocumentMoniker": "KP\\AdminWindow\\GeneralWindow.xaml.cs",
@@ -399,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "GeneralWindow.xaml.cs",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\UserWindow\\GeneralWindow.xaml.cs",
               "RelativeDocumentMoniker": "KP\\UserWindow\\GeneralWindow.xaml.cs",
@@ -411,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "KP\\MainWindow.xaml.cs",
@@ -423,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "MeetWindow.xaml.cs",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\UserWindow\\MeetWindow.xaml.cs",
               "RelativeDocumentMoniker": "KP\\UserWindow\\MeetWindow.xaml.cs",
@@ -435,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "MeetWindow.xaml",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\UserWindow\\MeetWindow.xaml",
               "RelativeDocumentMoniker": "KP\\UserWindow\\MeetWindow.xaml",
