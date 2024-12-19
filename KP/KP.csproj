@@ -180,6 +180,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include=".github\workflows\pipeline.yaml" />
     <None Include="_KP11_01DataSet.xsc">
       <DependentUpon>_KP11_01DataSet.xsd</DependentUpon>
     </None>

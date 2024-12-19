@@ -1,0 +1,39 @@
+name: Check Style and Syntax
+
+on:
+  push:
+    branches:
+      - vets
+  pull_request:
+    branches:
+      - vets
+
+jobs:
+  checkstyle:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '6.0.400' # ”кажите вашу версию SDK
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build the project
+        run: dotnet build --no-restore --configuration Release
+
+      - name: Install dotnet-format
+        run: |
+          dotnet tool install --global dotnet-format
+          echo "::add-path::/home/runner/.dotnet/tools"
+
+      - name: Run Style Check
+        run: dotnet format --check
+
+      - name: Run Syntax Check
+        run: dotnet build --no-restore --configuration Release --no-incremental
