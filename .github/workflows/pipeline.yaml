@@ -19,11 +19,15 @@ jobs:
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '8.0.404' 
+          dotnet-version: '8.0.404'
+
+      - name: List directory contents
+        run: |
+          ls -la
 
       - name: Navigate to project directory
         run: |
-          cd D:/VS/KP
+          cd KP
 
       - name: Install StyleCop.Analyzers
         run: |
@@ -32,7 +36,6 @@ jobs:
       - name: Build project
         run: |
           dotnet build --no-restore
-
 
       - name: Run StyleCop Analysis
         run: |
