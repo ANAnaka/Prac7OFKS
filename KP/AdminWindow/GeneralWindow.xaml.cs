@@ -224,14 +224,14 @@ namespace KP.AdminWindow
 
         private void RemoveCommunicationButton_Click(object sender, RoutedEventArgs e)
         {
-            if (CommunicationsListBox.SelectedItem is Communication selectedCommunication && editingPremiseId.HasValue)
+            try
+            {
+                if (CommunicationsListBox.SelectedItem is Communication selectedCommunication && editingPremiseId.HasValue)
             {
                 try
                 {
-                    // Удаляем связь между помещением и коммуникацией
                     premisesCommunicationsAdapter.DeleteQuery(editingPremiseId.Value, selectedCommunication.ID_Communications);
 
-                    // Обновляем список помещений и коммуникаций
                     LoadPremises();
                     LoadCommunicationsForCurrentPremise();
                 }
@@ -243,6 +243,11 @@ namespace KP.AdminWindow
             else
             {
                 MessageBox.Show("Выберите коммуникацию для удаления.");
+            }
+            }
+            catch (InvalidOperationException ex)
+            {
+                MessageBox.Show($"Ошибка при удалении коммуникации: {ex.Message}");
             }
         }
 
