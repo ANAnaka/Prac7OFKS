@@ -1,39 +1,39 @@
-name: Check Style and Syntax
+name: Check Style Code
 
 on:
   push:
     branches:
-      - vets
+      - vetka
+
   pull_request:
     branches:
-      - vets
+      - vetka
 
 jobs:
   checkstyle:
     runs-on: ubuntu-latest
-
     steps:
+      # Загрузка кода
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
+      # Установка .NET SDK
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '6.0.400' # Укажите вашу версию SDK
+          dotnet-version: '8.0.404' # Укажите нужную версию SDK
 
-      - name: Restore dependencies
-        run: dotnet restore
-
-      - name: Build the project
-        run: dotnet build --no-restore --configuration Release
-
-      - name: Install dotnet-format
+      # Установка StyleCop.Analyzers
+      - name: Install StyleCop.Analyzers
         run: |
-          dotnet tool install --global dotnet-format
-          echo "::add-path::/home/runner/.dotnet/tools"
+          dotnet add package StyleCop.Analyzers --prerelease
 
-      - name: Run Style Check
-        run: dotnet format --check
+      # Сборка проекта (обязательно перед анализом)
+      - name: Build project
+        run: |
+          dotnet build --no-restore
 
-      - name: Run Syntax Check
-        run: dotnet build --no-restore --configuration Release --no-incremental
+      # Проверка стиля кода с помощью StyleCop
+      - name: Run StyleCop Analysis
+        run: |
+          dotnet build -warnaserror

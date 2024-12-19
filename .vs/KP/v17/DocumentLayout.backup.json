@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\VS\\KP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E986B5ED-BE54-4B3B-A4B3-9122DE451DCF}|workflows{E986B5ED-BE54-4B3B-A4B3-9122DE451DCF}|D:\\VS\\KP\\pipeline.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E986B5ED-BE54-4B3B-A4B3-9122DE451DCF}|workflows{E986B5ED-BE54-4B3B-A4B3-9122DE451DCF}|solutionrelative:pipeline.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|d:\\vs\\kp\\kp\\.github\\workflows\\pipeline.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|solutionrelative:kp\\.github\\workflows\\pipeline.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|D:\\VS\\KP\\kp\\userwindow\\meetwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|solutionrelative:kp\\userwindow\\meetwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|D:\\VS\\KP\\kp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|D:\\VS\\KP\\kp\\adminwindow\\contractwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|solutionrelative:kp\\adminwindow\\contractwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|D:\\VS\\KP\\kp\\userwindow\\meetwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|solutionrelative:kp\\userwindow\\meetwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|D:\\VS\\KP\\kp\\adminwindow\\generalwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,11 +110,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 289,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\App.xaml",
               "RelativeDocumentMoniker": "KP\\App.xaml",
@@ -122,11 +122,12 @@
               "RelativeToolTip": "KP\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-14T21:32:13.925Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_KP11_01DataSet.xsd",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\_KP11_01DataSet.xsd",
               "RelativeDocumentMoniker": "KP\\_KP11_01DataSet.xsd",
@@ -135,6 +136,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
               "WhenOpened": "2024-12-16T10:20:12.722Z",
               "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pipeline.yaml",
+              "DocumentMoniker": "D:\\VS\\KP\\KP\\.github\\workflows\\pipeline.yaml",
+              "RelativeDocumentMoniker": "KP\\.github\\workflows\\pipeline.yaml",
+              "ToolTip": "D:\\VS\\KP\\KP\\.github\\workflows\\pipeline.yaml",
+              "RelativeToolTip": "KP\\.github\\workflows\\pipeline.yaml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-19T18:19:37.096Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -162,20 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "pipeline.yaml",
-              "DocumentMoniker": "D:\\VS\\KP\\pipeline.yaml",
-              "RelativeDocumentMoniker": "pipeline.yaml",
-              "ToolTip": "D:\\VS\\KP\\pipeline.yaml",
-              "RelativeToolTip": "pipeline.yaml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-12-19T18:13:17.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PaymentWindow.xaml.cs",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\PaymentWindow.xaml.cs",
               "RelativeDocumentMoniker": "KP\\AdminWindow\\PaymentWindow.xaml.cs",
@@ -187,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PaymentWindow.xaml",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\PaymentWindow.xaml",
               "RelativeDocumentMoniker": "KP\\AdminWindow\\PaymentWindow.xaml",
@@ -198,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ContractWindow.xaml.cs",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\ContractWindow.xaml.cs",
               "RelativeDocumentMoniker": "KP\\AdminWindow\\ContractWindow.xaml.cs",
@@ -210,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ContractWindow.xaml",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\ContractWindow.xaml",
               "RelativeDocumentMoniker": "KP\\AdminWindow\\ContractWindow.xaml",
@@ -419,14 +420,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "MeetWindow.xaml",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\UserWindow\\MeetWindow.xaml",
               "RelativeDocumentMoniker": "KP\\UserWindow\\MeetWindow.xaml",
               "ToolTip": "D:\\VS\\KP\\KP\\UserWindow\\MeetWindow.xaml",
               "RelativeToolTip": "KP\\UserWindow\\MeetWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-28T21:57:34.416Z"
+              "WhenOpened": "2024-11-28T21:57:34.416Z",
+              "EditorCaption": ""
             }
           ]
         }

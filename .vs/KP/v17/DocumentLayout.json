@@ -110,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 289,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
@@ -122,8 +122,7 @@
               "RelativeToolTip": "KP\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-14T21:32:13.925Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -136,19 +135,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
               "WhenOpened": "2024-12-16T10:20:12.722Z",
               "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "pipeline.yaml",
-              "DocumentMoniker": "D:\\VS\\KP\\KP\\.github\\workflows\\pipeline.yaml",
-              "RelativeDocumentMoniker": "KP\\.github\\workflows\\pipeline.yaml",
-              "ToolTip": "D:\\VS\\KP\\KP\\.github\\workflows\\pipeline.yaml",
-              "RelativeToolTip": "KP\\.github\\workflows\\pipeline.yaml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-12-19T18:19:37.096Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -173,6 +159,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pipeline.yaml",
+              "DocumentMoniker": "D:\\VS\\KP\\KP\\.github\\workflows\\pipeline.yaml",
+              "RelativeDocumentMoniker": "KP\\.github\\workflows\\pipeline.yaml",
+              "ToolTip": "D:\\VS\\KP\\KP\\.github\\workflows\\pipeline.yaml",
+              "RelativeToolTip": "KP\\.github\\workflows\\pipeline.yaml",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvxcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-19T18:19:37.096Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -427,8 +426,7 @@
               "ToolTip": "D:\\VS\\KP\\KP\\UserWindow\\MeetWindow.xaml",
               "RelativeToolTip": "KP\\UserWindow\\MeetWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-28T21:57:34.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T21:57:34.416Z"
             }
           ]
         }
