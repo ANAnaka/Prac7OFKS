@@ -15,19 +15,13 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          set-safe-directory: true
 
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '8.0.404'  # Укажите нужную версию SDK
-
-      - name: List directory contents
-        run: |
-          ls -la
-
-      - name: Navigate to project directory
-        run: |
-          cd D:/VS/KP
 
       - name: Install StyleCop.Analyzers
         run: |
