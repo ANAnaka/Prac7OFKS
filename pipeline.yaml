@@ -1,4 +1,4 @@
-﻿name: Check Style Code
+name: Check Style Code
 
 on:
   push:
