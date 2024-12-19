@@ -11,7 +11,7 @@ on:
 
 jobs:
   checkstyle:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest  # Используется Windows-среда
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -25,19 +25,19 @@ jobs:
 
       - name: List directory contents
         run: |
-          ls -la
+          dir  # В Windows используется команда 'dir' вместо 'ls'
 
       - name: Install StyleCop.Analyzers
-        working-directory: ./KP  # Укажите относительный путь к вашему проекту
+        working-directory: .\KP  # Используется путь, подходящий для Windows
         run: |
           dotnet add package StyleCop.Analyzers --prerelease
 
       - name: Build project
-        working-directory: ./KP  # Укажите относительный путь к вашему проекту
+        working-directory: .\KP  # Используется путь, подходящий для Windows
         run: |
           dotnet build --no-restore
 
       - name: Run StyleCop Analysis
-        working-directory: ./KP  # Укажите относительный путь к вашему проекту
+        working-directory: .\KP  # Используется путь, подходящий для Windows
         run: |
           dotnet build -warnaserror
