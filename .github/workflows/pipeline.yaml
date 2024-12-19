@@ -11,7 +11,7 @@ on:
 
 jobs:
   checkstyle:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -19,16 +19,12 @@ jobs:
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '8.0.404'
-
-      - name: List directory contents
-        run: |
-          ls -la
+          dotnet-version: '8.0.404' 
 
       - name: Navigate to project directory
         run: |
-          cd KP
-
+          cd D:\VS\KP\KP.sln
+          
       - name: Install StyleCop.Analyzers
         run: |
           dotnet add package StyleCop.Analyzers --prerelease
@@ -36,6 +32,7 @@ jobs:
       - name: Build project
         run: |
           dotnet build --no-restore
+
 
       - name: Run StyleCop Analysis
         run: |
