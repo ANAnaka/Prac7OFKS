@@ -23,7 +23,7 @@ jobs:
 
       - name: Navigate to project directory
         run: |
-          cd D:/VS/KP
+          cd D:/VS/KP/KP
 
       - name: Install StyleCop.Analyzers
         run: |
