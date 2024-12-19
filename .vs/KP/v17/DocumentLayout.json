@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "D:\\VS\\KP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|D:\\VS\\KP\\kp\\pipeline.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|solutionrelative:kp\\pipeline.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|d:\\vs\\kp\\kp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|solutionrelative:kp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|d:\\vs\\kp\\kp\\pipeline.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|solutionrelative:kp\\pipeline.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|d:\\vs\\kp\\kp\\adminwindow\\paymentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|D:\\VS\\KP\\kp\\adminwindow\\paymentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEAA2E7E-1979-4537-AD66-24B36C82D128}|KP\\KP.csproj|solutionrelative:kp\\adminwindow\\paymentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -114,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 289,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
@@ -139,32 +139,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
               "WhenOpened": "2024-12-16T10:20:12.722Z",
               "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "D:\\VS\\KP\\KP\\.gitignore",
-              "RelativeDocumentMoniker": "KP\\.gitignore",
-              "ToolTip": "D:\\VS\\KP\\KP\\.gitignore",
-              "RelativeToolTip": "KP\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-19T15:45:02.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "pipeline.yaml",
-              "DocumentMoniker": "D:\\VS\\KP\\KP\\pipeline.yaml",
-              "RelativeDocumentMoniker": "KP\\pipeline.yaml",
-              "ToolTip": "D:\\VS\\KP\\KP\\pipeline.yaml",
-              "RelativeToolTip": "KP\\pipeline.yaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-12-19T15:32:17.133Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -192,6 +166,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\VS\\KP\\KP\\.gitignore",
+              "RelativeDocumentMoniker": "KP\\.gitignore",
+              "ToolTip": "D:\\VS\\KP\\KP\\.gitignore",
+              "RelativeToolTip": "KP\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-19T15:45:02.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pipeline.yaml",
+              "DocumentMoniker": "D:\\VS\\KP\\KP\\pipeline.yaml",
+              "RelativeDocumentMoniker": "KP\\pipeline.yaml",
+              "ToolTip": "D:\\VS\\KP\\KP\\pipeline.yaml",
+              "RelativeToolTip": "KP\\pipeline.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-19T15:32:17.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "PaymentWindow.xaml.cs",
               "DocumentMoniker": "D:\\VS\\KP\\KP\\AdminWindow\\PaymentWindow.xaml.cs",
@@ -200,8 +200,7 @@
               "RelativeToolTip": "KP\\AdminWindow\\PaymentWindow.xaml.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAiwGIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T17:56:33.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T17:56:33.035Z"
             },
             {
               "$type": "Document",

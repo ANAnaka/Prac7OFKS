@@ -3,6 +3,28 @@
 on:
   push:
     branches:
-        - 
-  
- jobs:
+        - vetka
+    
+  pull_request:
+    branches:
+        - vetka    
+jobs:
+  checkstyle:
+     runs-on: ubuntu-lastest
+     steps:
+       - name: Download code
+         user: actions/checkout@v2
+
+       - name: Set version C#
+         user: actions/setup-C#@v2
+         with:
+            C#-version: '8.0.404'
+
+       - name: Install dependencies
+         run: |
+           pip install flake8
+
+       - name: Run linter
+         run: |
+           flake8 . 
+          
