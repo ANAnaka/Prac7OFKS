@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KP", "KP\KP.csproj", "{EEAA2E7E-1979-4537-AD66-24B36C82D128}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{193D63F5-22DA-4792-9C82-E9A2C799BA2F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{193D63F5-22DA-4792-9C82-E9A2C799BA2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{E986B5ED-BE54-4B3B-A4B3-9122DE451DCF}"
 	ProjectSection(SolutionItems) = preProject
 		pipeline.yaml = pipeline.yaml
 	EndProjectSection
@@ -23,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E986B5ED-BE54-4B3B-A4B3-9122DE451DCF} = {193D63F5-22DA-4792-9C82-E9A2C799BA2F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3569FAFD-DF0B-4002-AA5C-106DB62FC8AB}
